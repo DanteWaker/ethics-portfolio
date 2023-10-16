@@ -26,9 +26,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <nav>
                 <ul className="flex space-x-5 text-primary-purple">
                   <li>
-                    <Link href="/Sobre">Sobre</Link>
-                  </li>
-                  <li>
                     <Link href="/Equipe">Equipe</Link>
                   </li>
                 </ul>

@@ -15,6 +15,8 @@ import Camus from '../../public/img/camus.jpg'
 import Wittgenstein from '../../public/img/Wittgenstein.jpg'
 import Popper from '../../public/img/Popper.jpg'
 import Husserl from '../../public/img/Husserl.webp'
+import Weber from '../../public/img/weber.jpg'
+import Freud from '../../public/img/freud.webp'
 import Foucault from '../../public/img/Foucault.gif'
 
 export interface iListContent {
@@ -158,10 +160,37 @@ export const listContent: Array<iListContent> = [
     position: 16,
   },
   {
+    title1: 'Weber',
+    text1:
+      'O pensador alemão Max Weber (1864-1920) foi um dos \
+    fundadores das ciências sociais contemporâneas. Suas obras \
+    representam uma importante contribuição ao pensamento político e\
+    econômico, à história e à filosofia, sobretudo à ética.\
+    Um dos temas centrais da análise sociológica e política de Weber\
+    é precisamente a questão dos limites da responsabilidade moral,\
+    derivado de seu interesse pela influência do protestantismo,\
+    sobretudo calvinista, na formação da sociedade e da cultura\
+    europeias desde o século XVI.\
+      Nas suas discussões sobre ética, Weber a divide em dois tipos: a ética de convicção e a ética de responsabilidade. A ética de convicção é sobre fazer o que se acha certo, não pensando no fim, ou tendo “fé” de que dará certo. Na ética de responsabilidade, no entanto, o correto é a ação ter o fim como bom, pouco importando o meio. \
+    ',
+    image: Weber,
+    position: 17,
+  },
+  {
+    title1: 'Freud',
+    text1:
+      'Freud nasceu em 1856 na cidade de Freiberg, Maróvia que pertencia ao Imperio Austríaco, foi um pensador cujas ideias foram de extremo impacto para a ciência, filosofia e arte. Ele é conhecido como o criador da Psicanálise, além de ser formado em Medicina e ter especialização em psiquiatria. Também conhecido por suas obras “Interpretação dos Sonhos” de 1900, “Ego e ID” artigo de 1923, e a obra “O Mal-estar na Civilização”, lançado em 1930.',
+    title2: 'Freud tem a visão',
+    text2:
+      'de ética de que quando o indivíduo assume que é parte de si a natureza agressiva, não a reprime a todo custo assumindo um viés externo e uma submissão perante uma autoridade, ele se torna mais próximo de alcançar um bem estar, mesmo que momentâneo, para si mesmo e por consequência para seus iguais, maturando melhor a forma como seu superego e seu ego podem balancear sua convivência social e seus instintos.',
+    image: Freud,
+    position: 18,
+  },
+  {
     title1: 'Foucault',
     text1:
       "Michel Foucault foi um filósofo francês cujo trabalho teve um impacto duradouro nas áreas de filosofia, teoria social e estudos culturais. Ele explorou temas como poder, conhecimento, sexualidade e controle social em suas obras, argumentando que o poder está intrinsecamente ligado ao conhecimento e que as instituições sociais exercem controle sobre os indivíduos por meio do que ele chamou de 'tecnologias de poder'. Foucault também examinou como as normas culturais e sociais moldam a identidade e a subjetividade. Suas obras influenciaram uma ampla gama de disciplinas e continuam a ser debatidas e estudadas em todo o mundo.",
     image: Foucault,
-    position: 17,
+    position: 19,
   },
 ]
